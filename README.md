@@ -1,1 +1,2 @@
-# homeconfig
+# $HOME
+config files
