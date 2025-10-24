@@ -1,0 +1,4 @@
+vim
+tmux
+bind-utils
+setroubleshoot-server
