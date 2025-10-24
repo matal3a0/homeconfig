@@ -1,4 +1,39 @@
+# EPEL
+subscription-manager repos --enable codeready-builder-for-rhel-10-$(arch)-rpms
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
+
+# Standard-paket
 vim
 tmux
 bind-utils
 setroubleshoot-server
+
+
+# Hollywood
+atop
+bmon
+cmatrix
+dnstop
+ethstatus
+glances
+htop
+ifstat
+iotop
+iptotal
+iptraf-ng
+itop
+jnettop
+kerneltop
+latencytop
+logtop
+netmrg
+nload
+nmon
+ntop
+powertop
+sagan
+slurm
+snetz
+top
+tiptop
+vnstat
