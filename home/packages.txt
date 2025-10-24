@@ -10,27 +10,30 @@ setroubleshoot-server
 
 
 # Hollywood
-atop
-bmon
-cmatrix
+# EPEL
+powertop
+nmon
+nload
+iptraf-ng
+iotop
+ifstat
 dnstop
+bmon
+htop
+
+# unknown
+atop
+cmatrix
 ethstatus
 glances
-htop
-ifstat
-iotop
 iptotal
-iptraf-ng
 itop
 jnettop
 kerneltop
 latencytop
 logtop
 netmrg
-nload
-nmon
 ntop
-powertop
 sagan
 slurm
 snetz
